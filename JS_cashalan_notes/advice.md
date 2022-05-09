@@ -52,3 +52,8 @@
     * los argumentos van separados de comas(,)
     * si no invocas(llamar) a la funcion todo lo que este dentro de esta no servira, es decir si declaras una funcion dentro de una funcion,solo podras invocar esa variable invocando la funcion, al lugar donde esta la variable se le llama scope; la funcion si puede acceder al scope global es dacir que si no ecuentra esa variable dentro buscara fuera (aunque si declaras la variable adentro aunque este vacia recuerda que su valor default sera undefined no significa que no exista)
     * console.log es una funcion sirve para imprimir un argumento
+* operaciones de comparacion >(mayor que) <(menor que) ==(es igual (recuerda que si es un solo igual es de asignacion))
+* condicionales 
+    *  if si se cumple la condicion sera true
+    * else if sirve para dar otra condicion
+    * else si nada de lo anterior se cumple hace lo esto
