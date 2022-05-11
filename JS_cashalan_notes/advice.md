@@ -52,8 +52,11 @@
     * los argumentos van separados de comas(,)
     * si no invocas(llamar) a la funcion todo lo que este dentro de esta no servira, es decir si declaras una funcion dentro de una funcion,solo podras invocar esa variable invocando la funcion, al lugar donde esta la variable se le llama scope; la funcion si puede acceder al scope global es dacir que si no ecuentra esa variable dentro buscara fuera (aunque si declaras la variable adentro aunque este vacia recuerda que su valor default sera undefined no significa que no exista)
     * console.log es una funcion sirve para imprimir un argumento
-* operaciones de comparacion >(mayor que) <(menor que) ==(es igual (recuerda que si es un solo igual es de asignacion))
+* operaciones de comparacion >(mayor que) <(menor que) ==(es igual **mala practica** (recuerda que si es un solo igual es de asignacion)) ===(es igual en todo(incluido el tipo) (recuerda que si es un solo igual es de asignacion))
+> Algo a tener en cuenta: hay un "doble igual" (`==`) que comparará dos elementos, pero NO tendrá en cuenta sus tipos (`1 == '1' // verdadero`). Debido a esto , se considera una mala práctica usar el doble igual. Nos gustaría verte siempre usando el triple, y siempre nos verás usándolo.
+>--Henry course
 * condicionales 
     *  if si se cumple la condicion sera true
     * else if sirve para dar otra condicion
-    * else si nada de lo anterior se cumple hace lo esto
+    * else si nada de lo anterior se cumple hace lo esto    
+* Logica o veracidad en JS : javascript cuando no entiende algo intenta entenderlo, es decir, transforma lo que le dices a su idioma(ojo no siempre pasa esto y tampoco deberias depender de esto ya que trae problemas consigo)
