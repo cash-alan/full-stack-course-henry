@@ -15,8 +15,8 @@ const /*<nombre_constante>*/ = /*<constante_valor>*/; : sirve para declarar cons
 /*<dato>*/ === /*<divide>*/ : compara si el primero es igual que el segundo en todo
 /*<dato*/++ : sumara uno al dato es igual a (/*dato*/ + 1;)
 // function 
-function  /*<nombre_funcion>(/*<argumentos>) {/*</*codigo*/>} : sirve para crear funciones
-const /*<nombre_funcion> = function () {/*</*codigo*/>}; : sirve para crear funciones dentro de variables (fijate que se nombra la variable no la funcion)
+function  /*<nombre_funcion>(/*<argumentos>) {/*</*codigo>*/ : sirve para crear funciones
+const /*<nombre_funcion> = function () {/*</*codigo>*/; : sirve para crear funciones dentro de variables (fijate que se nombra la variable no la funcion)
 return /*<>*/; : sirve para retornar valores
 //hay funciones ya predeterminadas como
 console.log('argumento') : sirve para imprimir cualquier dato que le indiques por argumento
@@ -27,8 +27,11 @@ Math./*<method>*/() : son algunas operaciones matematicas
 if (condicion) {} : sirve para crear el condicional
 else {} : se escribe al final y se ejecuta cuando todo lo demas es falso (va siempre al final)
 else if (condicion) {} : es como sino con condicion como un entonces (va siempre despues del if)
-return /*<>*/; : sirve para retornar valores y termina de ejecutar el codigo cuando se enuncie
-// bucles
+switch(n){case n_valor:/*codigo*/case n_valor:/*codigo*/ default(opcional)} : sirve para dar varias condiciones
+return /*<codigo>*/; : sirve para retornar valores y termina de ejecutar el codigo cuando se enuncie
+break; : obliga a terminar el codigo
+// loops
 for (/*<variable>*/;/*<condicion>*/;/*<accion>*/) {} : sirve para crear bucles
-while(/*<condicion>*/) {} : sirve para crear bucles
+while(/*<condicion>*/) {} : sirve para crear bucles sin saber que cantidad de veces se repite
+do{/*codigo*/}while(/*<condicion>*/) : sirve para crear bucles sin saber que cantidad de veces se repite pero el do siempre lo va a ejecutar una vez
 ```
