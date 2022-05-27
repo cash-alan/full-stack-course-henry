@@ -19,7 +19,7 @@ function  /*nombre_funcion(/*argumentos) {/*/*codigo*/ : sirve para crear funcio
 const /*nombre_funcion = function () {/*/*codigo*/; : sirve para crear funciones dentro de variables (fijate que se nombra la variable no la funcion)
 (/*parametros*/) = {/*codigo*/;} : es una forma resumida de crear funciones anonimas(sin nombre),si la funcion solo tiene una linea de codigo y/o un parametro puedes omitir las llaves y/o los parentesis (quedando algo asi /*parametro*/=/*codigo*/;)
 return /**/; : sirve para retornar valores
-//hay funciones ya predeterminadas llamadas metodos como
+//hay funciones ya predeterminadas llamadas metodos como, estos metodos son funciones guardadas en objetos
 console.log('argumento') : sirve para imprimir cualquier dato que le indiques por argumento
 alert('argumento') : muestra una ventana de alerta con el argumento que le des
 prompt('argumento') : muestra una ventana de alerta con el argumento que le des pidiendo datos al usuario
@@ -50,4 +50,11 @@ array.filter(): para encontrar los elementos dentro de un arreglo que cumplan co
 array.indexOf() : devuelve el primer índice encontrado de un elemento específico
 array.includes() : determina si un arreglo incluye un valor específico y devuelve verdadero o falso según corresponda
 array.find() : para encontrar el primer elemento que cumple cierta condición
+// objets
+new Object() : crea objetos
+{/*keys1:value,keyn:value*/} : es un objeto literal
+object.key || object[key] : returna la propiedad del objeto
+object[key]=value; || object.key=value; : crea propiedades con los valores que se indiquen
+Object.key(object) : devuelve una lista con las propiedades
+Object.value(object) : devuelve una lista con los value
 ```
