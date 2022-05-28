@@ -1,4 +1,6 @@
 ```js
+// los metodos con __methods__ nunca se deben modificar
+valor.__proto__ : sirve para ver el prototipo
 // data
 var /*variable_nombre*/ = /*variable_valor*/; : sirve para declarar variables
 const /*nombre_constante*/ = /*constante_valor*/; : sirve para declarar constantes
@@ -57,4 +59,9 @@ object.key || object[key] : returna la propiedad del objeto
 object[key]=value; || object.key=value; : crea propiedades con los valores que se indiquen
 Object.key(object) : devuelve una lista con las propiedades
 Object.value(object) : devuelve una lista con los value
+// classes (aunque deberian ser prototipos)
+class /*nomber*/ {constructor(property){this.property=property;}}; || function(property){this.property=property;}; : sintaxis para crear classes
+/*nombre*/.prototype./*method*/ = statement || valor : sirve para guardar en el prototipo del objeto
+var /*intancias*/ = new /*nombre*/(); : para crear instancia(la guardas en una variable)
+
 ```

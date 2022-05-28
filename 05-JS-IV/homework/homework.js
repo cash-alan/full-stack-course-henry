@@ -138,9 +138,9 @@ function sumarLikesDeUsuario(usuario) {
   //   return suma += usuario.posts[likes].likes
   // }
   let suma = new Number();
-  usuario.posts.forEach(element => {
-    return suma += Object.values(element.likes);
-  });
+  for (let i = 0; i < usuario.posts.length; i++){
+    suma += usuario.posts[i].likes;
+  }
   return suma;
 }
 
